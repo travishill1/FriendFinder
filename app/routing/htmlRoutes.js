@@ -10,8 +10,6 @@ var PORT = process.env.PORT || 3000;
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
-
-
 // Your htmlRoutes.js file should include two routes:
 
 // A GET Route to /survey which should display the survey page.
